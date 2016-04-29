@@ -5,6 +5,8 @@ server:
   contextPath: /userauth 
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://172.16.80.170:8761/eureka/
